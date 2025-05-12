@@ -60,7 +60,7 @@ function App() {
         {
           bmi && (
             <div className="result">
-             <h3 style={{ color: bmi > 25 ? "green" : "rgb(27, 116, 218)" }}>Your BMI: {bmi}</h3>
+              <h3 style={{color : "rgb(27, 116, 218)"}}>Your BMI: {bmi}</h3>
               <h4 style={{ color: categoryColor(category) }}>Category: {category}</h4>
             </div>
           )
